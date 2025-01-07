@@ -22,6 +22,10 @@ footer img {
 }
 footer a {
   text-decoration: none;
+  color: #444; 
+}
+footer a:hover {
+  color: #222; 
 }
 
 section {
