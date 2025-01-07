@@ -1,0 +1,21 @@
+<svg viewBox="0 0 200 30" xmlns="http://www.w3.org/2000/svg">
+
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Raleway&amp;display=swap');
+
+text {
+	dominant-baseline: middle;
+	fill: #000;
+    font-family: Raleway;
+    font-weight: 400;
+    font-style: normal;
+	font-size: 17px;
+	text-anchor: left;
+}
+</style>
+
+<a href="mailto:claire.ribrault@proton.me">
+	<text x="0%" y="50%">claire.ribrault@proton.me</text>
+</a>
+
+</svg>

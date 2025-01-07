@@ -1,0 +1,116 @@
+a {
+  color: #245B99; }
+a:hover {
+  color: #2167B8; }
+
+.container {
+  /*     background: #eee; */
+}
+
+footer {
+  margin-top: 5%;
+  background: #eee;
+  color: #666;
+  font-size: 1.35rem;
+}
+footer p {
+  margin-top: 0.6rem;
+  margin-bottom: 0.8rem;
+}
+footer img {
+  vertical-align: text-top;
+}
+footer a {
+  text-decoration: none;
+}
+
+section {
+  margin-top: 3%;
+  padding-top: 2%;
+  border-top: 1px solid #EEE;
+}
+#section-parcours {
+/*   border-top: medium double #EEE; */
+  border-top: 1px solid #BBB;
+}
+#section-intro {
+  margin-top: 0;
+  padding-top: 0;
+  border-top: none;
+
+}
+
+#section-intro {
+/*   background: #DADFEB; */
+}
+#section-intro .one-third {
+  padding-top: 10%;
+}
+#section-intro p,
+#section-parcours p {
+  font-size: 1.7rem;
+}
+#section-intro h1 {
+  margin-bottom: 6rem;
+}
+
+.before_email {
+  padding-bottom: 100px;
+}
+object.email {
+  margin: 0;
+  vertical-align: middle;
+  position: absolute;
+  bottom: 80px;
+}
+#section-intro .intro-email {
+  position: absolute;
+  bottom: 20px;
+}
+
+#section-intro .column {
+  /* for positioning the email at the bottom */
+  position: relative;
+}
+
+@media (max-width: 649px) {
+  /* Crop image on narrow screens */
+  #section-intro img {
+    object-fit: cover;
+    aspect-ratio: 1;
+    object-position: center top;
+  }
+}
+
+@media (min-width: 650px) {
+/* image up to 820px high (full height on 15" macbook air") */
+  #section-intro .column {
+    height: calc(100vh);
+    min-height: 520px;
+    max-height: 820px;
+  }
+
+  #section-intro .portrait {
+    text-align: right;
+    height: calc(100vh);
+  }
+
+  #section-intro img {
+    max-width: 100%;
+    max-height: 820px;
+  }
+}
+
+@media (min-width: 800px) {
+  section .content {
+    width: 65.3333333333%;
+  }
+
+  #section-intro .row {
+  min-height: 820px;
+  }
+  #section-intro img {
+    min-height: 460px; 
+  }
+
+}
